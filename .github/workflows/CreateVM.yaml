@@ -18,7 +18,7 @@ jobs:
 
     - name: look for ps1 file
       run: |
-        ls '${{ env.OUTPUT_PATH }}\AzCLi'
+        ls '${{ env.OUTPUT_PATH }}\AzCLI'
     - name: provision virtual machine in azure
       env:
         RESOURCE_GROUP: CICDResourceGroup
